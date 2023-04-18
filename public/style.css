@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    justify-content: space-around !important;
+}
+
+.custom-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.bigger-font {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.width-200 {
+    display: inline-block;
+    width: 200px;
+}
+
+@media screen and (max-width: 420px) {
+    .width-200 {
+        display: block;
+    }
+
+    .btn {
+        margin-top: 1rem;
+    }
+}
